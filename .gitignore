@@ -1,0 +1,39 @@
+# --- secrets ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+.dist-info/
+
+# --- notebooks ---
+.ipynb_checkpoints/
+
+# --- OS/editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- logs ---
+*.log
+
+# --- runtime data / artifacts ---
+uploaded_pdfs/
+vector_store_faiss/
+*.faiss
+
+# --- temp/build ---
+build/
+dist/
+
+data/*.pdf
